@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IdsUtils/IdsUtils.iml" filepath="$PROJECT_DIR$/IdsUtils/IdsUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/etc-dijkstra/etc-dijkstra.iml" filepath="$PROJECT_DIR$/etc-dijkstra/etc-dijkstra.iml" />
+    </modules>
+  </component>
+</project>
