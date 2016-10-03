@@ -1,13 +1,13 @@
-package singly;
+package impl;
 
-import core.ListNode;
+import domain.ListNode;
 
 /**
  * Created by dasom on 2016-10-02.
  */
-public class LinkedList<T extends ListNode, U> {
+public class LinkedList<T> {
 
-    private ListNode<U> head;
+    private ListNode<T> head;
 
     public LinkedList(){
         head = null;
@@ -17,13 +17,13 @@ public class LinkedList<T extends ListNode, U> {
         return (head==null);
     }
 
-    public void insertLastNode(T newNode){
+    public void insertLastNode(ListNode<T> newNode){
         if(isEmpty()){
             head = newNode;
             return;
         }
 
-        ListNode<U> currentNode = head;
+        ListNode<T> currentNode = head;
         while(true){
             if(currentNode.link == null){
                 currentNode.link = newNode;
@@ -34,16 +34,16 @@ public class LinkedList<T extends ListNode, U> {
         }
     }
 
-    public void insertMiddleNode(U frontData, U newData){
+    public void insertMiddleNode(T frontData, T newData){
         if(isEmpty()){
-            ListNode<U> newNode = new ListNode<U>(frontData);
+            ListNode<T> newNode = new ListNode<T>(frontData);
             head = newNode;
             return;
         }
 
-        ListNode<U> frontNode = searchNode(frontData);
+        ListNode<T> frontNode = searchNode(frontData);
         if(frontNode != null){
-            ListNode<U> newNode = new ListNode<U>(newData);
+            ListNode<T> newNode = new ListNode<T>(newData);
             newNode.link = frontNode.link;
             frontNode.link = newNode;
         }else{
@@ -52,9 +52,9 @@ public class LinkedList<T extends ListNode, U> {
     }
 
     public void reverseList(){
-        ListNode<U> preNode = null;
-        ListNode<U> currentNode = null;
-        ListNode<U> nextNode = head;
+        ListNode<T> preNode = null;
+        ListNode<T> currentNode = null;
+        ListNode<T> nextNode = head;
 
         while (nextNode != null){
             preNode = currentNode;
@@ -67,7 +67,7 @@ public class LinkedList<T extends ListNode, U> {
     }
 
     public void deleteLastNode(){
-        ListNode<U> currentNode = head;
+        ListNode<T> currentNode = head;
         while(true){
             if(currentNode.link.link == null){
                 currentNode.link = null;
@@ -78,8 +78,8 @@ public class LinkedList<T extends ListNode, U> {
         }
     }
 
-    private ListNode<U> searchNode(U data){
-        ListNode<U> resultNode = head;
+    private ListNode<T> searchNode(T data){
+        ListNode<T> resultNode = head;
         while((resultNode != null)){
             if(data.equals(resultNode.data)){
                 return resultNode;
@@ -91,7 +91,7 @@ public class LinkedList<T extends ListNode, U> {
     }
 
     public void printList(){
-        ListNode<U> currentNode = head;
+        ListNode<T> currentNode = head;
         while(true){
             if(currentNode.link == null){
                 System.out.print(currentNode.data);

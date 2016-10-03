@@ -1,8 +1,8 @@
 package impl.list;
 
-import core.ListNode;
+import domain.ListNode;
 import org.junit.Test;
-import singly.LinkedList;
+import impl.LinkedList;
 
 /**
  * Created by dasom on 2016-10-02.

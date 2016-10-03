@@ -1,4 +1,4 @@
-package core;
+package domain;
 
 /**
  * Created by dasom on 2016-10-02.
@@ -8,7 +8,8 @@ public class ListNode<T> {
     public ListNode link;
 
     public ListNode() {
-
+        this.data = null;
+        this.link = null;
     }
 
     public ListNode(T data) {

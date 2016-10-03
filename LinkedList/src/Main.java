@@ -1,5 +1,5 @@
-import core.ListNode;
-import singly.LinkedList;
+import domain.ListNode;
+import impl.LinkedList;
 
 /**
  * Created by dasom on 2016-10-02.
@@ -7,7 +7,7 @@ import singly.LinkedList;
 public class Main {
 
     public static void main(String[] args){
-        LinkedList<ListNode<String>, String> list = new LinkedList<>();
+        LinkedList<String> list = new LinkedList<>();
         list.insertLastNode(new ListNode<>("월"));
         list.insertLastNode(new ListNode<>("수"));
         list.insertLastNode(new ListNode<>("목"));
