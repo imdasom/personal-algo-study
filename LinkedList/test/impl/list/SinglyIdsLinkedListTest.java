@@ -2,16 +2,16 @@ package impl.list;
 
 import domain.ListNode;
 import org.junit.Test;
-import impl.LinkedList;
+import impl.ids.IdsLinkedList;
 
 /**
  * Created by dasom on 2016-10-02.
  */
-public class SinglyLinkedListTest {
+public class SinglyIdsLinkedListTest {
 
     @Test
     public void testSinglyLinkedList(){
-        LinkedList<String> list = new LinkedList<>();
+        IdsLinkedList<String> list = new IdsLinkedList<>();
         list.insertLastNode(new ListNode<>("월"));
         list.insertLastNode(new ListNode<>("수"));
         list.insertLastNode(new ListNode<>("일"));

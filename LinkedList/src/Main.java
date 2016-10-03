@@ -1,5 +1,5 @@
 import domain.ListNode;
-import impl.LinkedList;
+import impl.ids.IdsLinkedList;
 
 /**
  * Created by dasom on 2016-10-02.
@@ -7,7 +7,7 @@ import impl.LinkedList;
 public class Main {
 
     public static void main(String[] args){
-        LinkedList<String> list = new LinkedList<>();
+        IdsLinkedList<String> list = new IdsLinkedList<>();
         list.insertLastNode(new ListNode<>("월"));
         list.insertLastNode(new ListNode<>("수"));
         list.insertLastNode(new ListNode<>("목"));

@@ -1,15 +1,15 @@
-package impl;
+package impl.ids;
 
 import domain.ListNode;
 
 /**
  * Created by dasom on 2016-10-02.
  */
-public class LinkedList<T> {
+public class IdsLinkedList<T> {
 
-    private ListNode<T> head;
+    protected ListNode<T> head;
 
-    public LinkedList(){
+    public IdsLinkedList(){
         head = null;
     }
 
