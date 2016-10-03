@@ -11,7 +11,7 @@ public class SinglyLinkedListTest {
 
     @Test
     public void testSinglyLinkedList(){
-        LinkedList<ListNode<String>, String> list = new LinkedList<>();
+        LinkedList<String> list = new LinkedList<>();
         list.insertLastNode(new ListNode<>("월"));
         list.insertLastNode(new ListNode<>("수"));
         list.insertLastNode(new ListNode<>("일"));
