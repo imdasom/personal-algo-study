@@ -1,5 +1,6 @@
 import impl.BubbleSort;
 import impl.InsertionSort;
+import impl.MergeSort;
 import impl.SelectionSort;
 
 /**
@@ -15,8 +16,10 @@ public class Main {
         int[] arr2 = {6, 5, 9, 3, 1, 8, 7, 10, 2, 4};
         new InsertionSort(arr2);
 
-
         int[] arr3 = {6, 5, 9, 3, 1, 8, 7, 10, 2, 4};
         new BubbleSort(arr3);
+
+        int[] arr4 = {6, 5, 9, 3, 1, 8, 7, 10, 2, 4};
+        new MergeSort(arr4);
     }
 }
