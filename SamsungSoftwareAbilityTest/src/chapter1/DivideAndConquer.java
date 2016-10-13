@@ -14,13 +14,10 @@ public class DivideAndConquer {
         Scanner sc = new Scanner(new FileInputStream("input_data/samsung_divide_and_conquer_input.txt"));
 
         int N = sc.nextInt();
-        System.out.println(N);
         int[] arr = new int[N];
         for(int i=0; i<N; i++){
             arr[i] = sc.nextInt();
-            System.out.print(arr[i] + " / ");
         }
-        System.out.println();
 
         printArray(arr);
         divide(arr, 0, N-1);
