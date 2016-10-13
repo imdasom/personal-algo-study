@@ -1,4 +1,4 @@
-package chapter1;
+package session1.chapter1;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
