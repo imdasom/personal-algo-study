@@ -1,4 +1,4 @@
-import algorithm.bj2983.bj2983;
+import dp.bj2983.bj2983;
 import java.io.FileNotFoundException;
 
 /**
