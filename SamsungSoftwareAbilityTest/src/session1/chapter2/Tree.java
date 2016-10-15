@@ -8,7 +8,7 @@ import java.io.*;
 public class Tree {
     public static void main(String[] args) throws IOException {
 
-        BufferedReader bufferedReader = new BufferedReader(new FileReader("SamsungSoftwareAbilityTest\\input_data\\TreeInputData.txt"));
+        BufferedReader bufferedReader = new BufferedReader(new FileReader("SamsungSoftwareAbilityTest\\data\\TreeInputData.txt"));
         String inputData = bufferedReader.readLine();
         String[] inputDatas = inputData.split(" ");
 

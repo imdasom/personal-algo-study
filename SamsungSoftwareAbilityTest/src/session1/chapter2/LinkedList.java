@@ -8,7 +8,7 @@ import java.io.*;
 public class LinkedList {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new FileReader("SamsungSoftwareAbilityTest\\input_data\\LinkedListInputData.txt"));
+        BufferedReader bufferedReader = new BufferedReader(new FileReader("SamsungSoftwareAbilityTest\\data\\LinkedListInputData.txt"));
         String newLine = bufferedReader.readLine();
         int N = Integer.parseInt(newLine);
 
@@ -33,7 +33,7 @@ public class LinkedList {
         linkedList.insertNode(newNode, newIndex);
         linkedList.printList();
 
-        BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\dasom\\Desktop\\personal_algo_study\\workspace-intellij\\SamsungSoftwareAbilityTest\\input_data\\LinkedListOutputData.txt"));
+        BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\dasom\\Desktop\\personal_algo_study\\workspace-intellij\\SamsungSoftwareAbilityTest\\data\\LinkedListOutputData.txt"));
 
         writer.write(linkedList.toString());
         writer.close();

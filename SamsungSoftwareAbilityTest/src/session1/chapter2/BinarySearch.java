@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class BinarySearch {
 
     public static void main(String[] args) throws FileNotFoundException {
-        Scanner sc = new Scanner(new FileInputStream("SamsungSoftwareAbilityTest\\input_data\\BinarySearchInputData.txt"));
+        Scanner sc = new Scanner(new FileInputStream("SamsungSoftwareAbilityTest\\data\\BinarySearchInputData.txt"));
         int N = sc.nextInt();
         int[] arr = new int[N];
 
