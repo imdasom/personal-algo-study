@@ -1,16 +1,14 @@
 package session1.chapter3;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Created by dasom on 2016-10-15.
  */
 public class GreedyAlgorithm2 {
-    public static int[][] arr = new int[5][5];
+    public static final int V = 5;
+    public static final int INF = 10000000;
 
     public static void main(String[] args) throws IOException {
 
@@ -19,77 +17,91 @@ public class GreedyAlgorithm2 {
         int startVertex = sc.nextInt();
         int endVertex = sc.nextInt();
 
-        for(int i=0; i<5; i++){
-            for(int j=0; j<5; j++){
-                arr[i][j] = sc.nextInt();
-                //System.out.print(arr[i][j] + " ");
-            }
-            //System.out.println();
+        Vector<Element>[] adj = new Vector[V];
+        for(int i=0; i<V; i++){
+            adj[i] = new Vector<>();
         }
 
-        boolean[] visited = new boolean[5];
-        int[] distances = new int[5]; //무한대로 초기화향 한다.
-        for(int i=0; i<5; i++){
-            visited[i] = false;
-            distances[i] = 999;
-        }
-
-        int[] sequence = new int[5];
-        int sequenceIndex = 0;
-
-        //startVertex에 방문을 표시한다.
-        int curVertex = startVertex;
-        visited[curVertex] = true;
-        distances[curVertex] = 0;
-        sequence[sequenceIndex++] = curVertex;
-
-        while(!isVisitedAllNode(visited)){
-            System.out.println("\n while문 시작, curVertex : "+curVertex);
-            //이 변수들은 min값 구하기 위해 쓰는거.
-            int minDistance = distances[0];
-            int minVertex = 0;
-
-            for(int i=0; i<5; i++){
-                if(arr[curVertex][i] == -1 || arr[curVertex][i] == 0)
-                     continue;
-
-                if (distances[i] != 999) {
-                    int newDis = arr[curVertex][i] + distances[curVertex];
-                    if (newDis < distances[i]) {
-                        distances[i] = newDis;
-                    }
-                } else {
-                    distances[i] = arr[curVertex][i];
-                }
-
-                if((minDistance == 0) || ((distances[i] < minDistance) && (!visited[i]))){
-                    minDistance = distances[i];
-                    minVertex = i;
+        for(int i=0; i<V; i++){
+            for(int j=0; j<V; j++){
+                int weight = sc.nextInt();
+                if(weight != -1 && weight != 0){
+                    adj[i].add(new Element(weight, j));
                 }
             }
-
-            curVertex = minVertex;
-            visited[curVertex] = true;   // 거리가 가장 작은 정점을 방문한다.
-            System.out.println("sequenceIndex : "+sequenceIndex);
-            sequence[sequenceIndex++] = curVertex;
-            //System.out.printf("startVertex, visited[%d], sequence[%d] : %d, %b, %d\n", curVertex, (sequenceIndex-1), startVertex, visited[curVertex], sequence[sequenceIndex-1]);
         }
 
-        printPath(sequence);
-        System.out.println(distances[endVertex]);
+        int dist[] = new int[V];
+        fillData(dist, INF);
+
+        boolean visited[] = new boolean[V];
+        fillData(visited, false);
+
+        PriorityQueue<Element> pq = new PriorityQueue<>();
+
+        startDijkstraAlgorithm(startVertex, endVertex, adj, dist, visited, pq);
+        printLeastDistance(dist);
     }
 
-    public static boolean isVisitedAllNode(boolean[] visited){
-        for(boolean visit : visited){
-            if(!visit) return false;
+    public static void startDijkstraAlgorithm(int startVertex, int endVertex, Vector<Element>[] adj, int[] dist, boolean[] visited, PriorityQueue<Element> pq){
+        dist[startVertex] = 0;
+        pq.add(new Element(0, startVertex));
+
+        while(!pq.isEmpty()){
+            int curVertex;
+
+            do{
+                curVertex = pq.peek().vertex;
+                pq.poll();
+            }while(!pq.isEmpty() && visited[curVertex]);
+
+            if(visited[curVertex]) break;
+
+            visited[curVertex] = true;
+            for(Element e : adj[curVertex]){
+                int next = e.vertex;
+                int totalDis = e.dis;
+                int newDis = dist[curVertex] + totalDis;
+
+                if(newDis < dist[next]){
+                    dist[next] = newDis;
+                    pq.add(new Element(dist[next], next));
+                }
+            }
         }
-        return true;
     }
 
-    public static void printPath(int[] sequence){
-        for(int vertex : sequence){
-            System.out.print(vertex + " ");
+    public static void fillData(int[] arr, int value){
+        for(int i=0; i<arr.length; i++){
+            arr[i] = value;
         }
-        System.out.println();
+    }
+
+    public static void fillData(boolean[] arr, boolean value){
+        for(int i=0; i<arr.length; i++){
+            arr[i] = value;
+        }
+    }
+
+    public static void printLeastDistance(int[] arr){
+        for(int i=0; i<arr.length; i++){
+            if(arr[i] == INF) System.out.println("INF");
+            else System.out.println(arr[i]);
+        }
+    }
+}
+
+class Element implements Comparable<Element> {
+    int dis;
+    int vertex;
+
+    public Element(int dis, int vertex){
+        this.dis = dis;
+        this.vertex = vertex;
+    }
+
+    @Override
+    public int compareTo(Element o) {
+        return dis <= o.dis ? -1 : 1;
     }
 }
