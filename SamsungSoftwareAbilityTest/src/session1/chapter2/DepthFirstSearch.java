@@ -17,7 +17,5 @@ public class DepthFirstSearch {
         String[] newLines = newLine.split(" ");
         int vertexNumber = Integer.parseInt(newLines[0]);
         int startVertex = Integer.parseInt(newLines[1]);
-
-        List<>
     }
 }
