@@ -60,7 +60,9 @@ class MaxHeapTree{
                 resultIndex = parent;
                 heap[child] = heap[parent];
             }
-                parent = parent/2;
+
+            parent = parent/2;
+            child = child/2;
         }
 
         heap[resultIndex] = data;
