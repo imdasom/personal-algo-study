@@ -19,10 +19,6 @@ public class IdsQueue {
         int nTotalPatient = 0;  //병원을 방문한 모든 환자의 수
         int maxPatientNumber = 0;   //최대 대기 고객 수
 
-
-
-
-
         System.out.println("서비스 받은 고객 : ");
         System.out.println("대기행렬에 남은 고객 수 : ");
         System.out.println("최대 대기 고객 수 : ");
