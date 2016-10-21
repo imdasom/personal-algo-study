@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9c0dbf0-cf4b-4bc5-bc89-c9fa1d10dd40" name="Default" comment="+삼성 프로그래밍 경진대회 SCPC 2016 예선 1차, 1번문제 3N+1">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a9c0dbf0-cf4b-4bc5-bc89-c9fa1d10dd40" name="Default" comment="+삼성 프로그래밍 경진대회 SCPC 2016 예선 1차, 1번문제 3N+1" />
     <ignored path="algorithm-study.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
