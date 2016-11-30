@@ -5,7 +5,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BaekJoon/input_data/bj2606_input.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BaekJoon/src/path/bj2606/BreadthFirstSearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Graph/src/bfs/BreadthFirstSearch.java" afterPath="$PROJECT_DIR$/Graph/src/bfs/BreadthFirstSearch.java" />
     </list>
     <ignored path="algorithm-study.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -842,13 +841,6 @@
       <workItem from="1475462513090" duration="54000" />
       <workItem from="1475468694299" duration="65000" />
     </task>
-    <task id="LOCAL-00002" summary="+다익스트라 알고리즘 구현">
-      <created>1475416264557</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1475416264558</updated>
-    </task>
     <task id="LOCAL-00003" summary="+우선순위 큐 구현하던거">
       <created>1475416316392</created>
       <option name="number" value="00003" />
@@ -1185,7 +1177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1478608313112</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="+2016.11.30 평일스터디, Breadth First Search 기본 알고리즘 구현">
+      <created>1480515873508</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1480515873510</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1267,7 +1266,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="+패키지명 변경함. input_data --&gt; data" />
     <MESSAGE value="+패키지명 변경된 것 반영. input_dtat --&gt; data" />
     <MESSAGE value="+삼성 소프트웨어 역량테스트, p50, XOR암호화, 메인코드" />
     <MESSAGE value="+삼성 소프트웨어 역량테스트, p50, XOR암호화, output파일" />
@@ -1292,7 +1290,8 @@
     <MESSAGE value="+C사 코딩 시험 풀이" />
     <MESSAGE value="+Breadth First Search 이론 공부 및 구현" />
     <MESSAGE value="+Breadth First Search 이론 응용, 트리의 root부터 leaf까지 각 노드의 가중치를 모두 더했을 떄 최소값을 구하는 문제, 보류" />
-    <option name="LAST_COMMIT_MESSAGE" value="+Breadth First Search 이론 응용, 트리의 root부터 leaf까지 각 노드의 가중치를 모두 더했을 떄 최소값을 구하는 문제, 보류" />
+    <MESSAGE value="+2016.11.30 평일스터디, Breadth First Search 기본 알고리즘 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="+2016.11.30 평일스터디, Breadth First Search 기본 알고리즘 구현" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
