@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9c0dbf0-cf4b-4bc5-bc89-c9fa1d10dd40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NHN-2017-winter-intern/NHN-2017-winter-intern.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NHN-2017-winter-intern/src/algorithm/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Graph/src/bfs/BreadthFirstSearch.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algorithm-study.iws" />
@@ -32,9 +30,11 @@
       <file leaf-file-name="InverseMatrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SamsungSoftwareAbilityTest/src/session1/chapter4/InverseMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2457">
+            <state relative-caret-position="1755">
               <caret line="120" column="37" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -42,18 +42,8 @@
       <file leaf-file-name="solution4.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc-dijkstra/src/cp/solution4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="255">
               <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/String.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="39606">
-              <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -62,7 +52,7 @@
       <file leaf-file-name="solution2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc-dijkstra/src/cp/solution2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
+            <state relative-caret-position="465">
               <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
               <folding />
             </state>
@@ -72,7 +62,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graph/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
+            <state relative-caret-position="90">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="31" />
               <folding />
             </state>
@@ -82,7 +72,7 @@
       <file leaf-file-name="TreeAndGraphTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graph/src/TreeAndGraphTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="819">
+            <state relative-caret-position="600">
               <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -91,44 +81,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BreadthFirstSearch.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Graph/src/bfs/BreadthFirstSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NHN-2017-winter-intern/src/algorithm/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="473">
+            <state relative-caret-position="693">
               <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntUnaryOperator.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/function/IntUnaryOperator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntConsumer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/function/IntConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vector.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/Vector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6846">
-              <caret line="365" column="19" selection-start-line="365" selection-start-column="19" selection-end-line="365" selection-end-column="19" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -159,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Sort/src/Main.java" />
         <option value="$PROJECT_DIR$/Sort/src/impl/QuickSort.java" />
         <option value="$PROJECT_DIR$/Jungol/src/algorithm/Jungol1370.java" />
         <option value="$PROJECT_DIR$/Jungol/src/Main.java" />
@@ -210,6 +179,7 @@
         <option value="$PROJECT_DIR$/Graph/src/Main.java" />
         <option value="$PROJECT_DIR$/Graph/src/TreeAndGraphTest.java" />
         <option value="$PROJECT_DIR$/NHN-2017-winter-intern/src/algorithm/Main.java" />
+        <option value="$PROJECT_DIR$/Graph/src/bfs/BreadthFirstSearch.java" />
       </list>
     </option>
   </component>
@@ -227,10 +197,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1042" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -258,6 +228,17 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -272,7 +253,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NHN-2017-winter-intern" />
+              <option name="myItemId" value="Graph" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -282,7 +263,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="NHN-2017-winter-intern" />
+              <option name="myItemId" value="Graph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithm-study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Graph" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -290,23 +285,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm" />
+              <option name="myItemId" value="bfs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1129,7 +1113,7 @@
     <option name="totallyTimeSpent" value="33805000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1230,13 +1214,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sort/src/impl/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SamsungSoftwareAbilityTest/src/util/Utils.java" />
     <entry file="file://$PROJECT_DIR$/Sort/src/impl/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1469,14 +1446,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39606">
-          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/SamsungSoftwareAbilityTest/data/GreedyAlgorithm1InputData.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1507,9 +1477,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SamsungSoftwareAbilityTest/src/session1/chapter4/InverseMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2457">
+        <state relative-caret-position="1755">
           <caret line="120" column="37" selection-start-line="120" selection-start-column="37" selection-end-line="120" selection-end-column="37" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1520,17 +1492,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6846">
-          <caret line="365" column="19" selection-start-line="365" selection-start-column="19" selection-end-line="365" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/Vector.java" />
     <entry file="file://$PROJECT_DIR$/etc-dijkstra/src/cp/solution4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="255">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
@@ -1538,7 +1503,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/etc-dijkstra/src/cp/solution2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
+        <state relative-caret-position="465">
           <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
           <folding />
         </state>
@@ -1546,15 +1511,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Graph/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
+        <state relative-caret-position="90">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/Arrays.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/function/IntConsumer.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/function/IntUnaryOperator.java" />
+    <entry file="file://$PROJECT_DIR$/NHN-2017-winter-intern/src/algorithm/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Graph/src/TreeAndGraphTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
+        <state relative-caret-position="600">
           <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1562,36 +1540,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/Arrays.java">
+    <entry file="file://$PROJECT_DIR$/Graph/src/bfs/BreadthFirstSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="1590" column="41" selection-start-line="1590" selection-start-column="27" selection-end-line="1590" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/function/IntConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="180">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/function/IntUnaryOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NHN-2017-winter-intern/src/algorithm/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="125" column="37" selection-start-line="125" selection-start-column="37" selection-end-line="125" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
