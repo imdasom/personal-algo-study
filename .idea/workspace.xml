@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9c0dbf0-cf4b-4bc5-bc89-c9fa1d10dd40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BaekJoon/src/bj05014/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BaekJoon/src/bj05014/input.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BaekJoon/src/bj05014/Main.java" afterPath="$PROJECT_DIR$/BaekJoon/src/bj05014/Main.java" />
     </list>
     <ignored path="algorithm-study.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,8 +45,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BaekJoon/src/bj05014/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="11">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -218,24 +217,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="BaekJoon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="algorithm-study" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BaekJoon" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bj11724_dfs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -644,13 +625,6 @@
       <workItem from="1475462513090" duration="54000" />
       <workItem from="1475468694299" duration="65000" />
     </task>
-    <task id="LOCAL-00008" summary="+정렬 알고리즘 구현 중">
-      <created>1475689571216</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1475689571216</updated>
-    </task>
     <task id="LOCAL-00009" summary="+병합정렬 구현">
       <created>1475852095818</created>
       <option name="number" value="00009" />
@@ -987,7 +961,14 @@
       <option name="project" value="LOCAL" />
       <updated>1482300010541</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="+ 2016.12.21 백준05014번; 스타트링크; BFS; 성공; 다른 사람 답보고 품;">
+      <created>1482302344637</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1482302344637</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1069,7 +1050,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="+삼성 소프트웨어 역량테스트, p57, 탐욕기법, 거스름돈알고리즘 문제 풀이" />
     <MESSAGE value="+삼성 소프트웨어 역량테스트, p57, 탐욕기법, 거스름돈알고리즘 input 파일" />
     <MESSAGE value="+삼성 소프트웨어 역량테스트, p57, 탐욕기법, 거스름돈알고리즘 output 파일" />
     <MESSAGE value="+삼성 소프트웨어 역량테스트, p60, 다익스트라 최단경로, 푸는 중" />
@@ -1094,7 +1074,8 @@
     <MESSAGE value="+ 2016.12.21 백준11724번; 연결 요소의 개수; DFS로 구현해 봄; 성공;" />
     <MESSAGE value="+ 2016.12.21 백준11724번; Null체크하는 부분을 스트림API로 수정해 봄;" />
     <MESSAGE value="+ 2016.12.21 백준01697번; 숨바꼭질; BFS; 성공; 다른 사람 답보고 품;" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ 2016.12.21 백준01697번; 숨바꼭질; BFS; 성공; 다른 사람 답보고 품;" />
+    <MESSAGE value="+ 2016.12.21 백준05014번; 스타트링크; BFS; 성공; 다른 사람 답보고 품;" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ 2016.12.21 백준05014번; 스타트링크; BFS; 성공; 다른 사람 답보고 품;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1477,8 +1458,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BaekJoon/src/bj05014/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="11">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
