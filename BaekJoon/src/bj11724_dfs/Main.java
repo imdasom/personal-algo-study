@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Objects;
 import java.util.StringTokenizer;
 
 /**
@@ -38,8 +39,8 @@ public class Main {
 
     public static void DFS(int i) {
         visited[i] = true;
-        if (adj[i] == null) return;
-        (adj[i]).stream().filter(j -> !visited[j]).forEachOrdered(Main::DFS);
+        (adj[i]).stream().filter(Objects::nonNull).filter(j -> !visited[j]).forEachOrdered(Main::DFS);  //널 체크하는 방법1
+        //(adj[i]).stream().filter(o -> o!=null).filter(j -> !visited[j]).forEachOrdered(Main::DFS);    //널 체크하는 방법2
     }
 
     public static void initValues() throws IOException {
