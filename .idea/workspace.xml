@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9c0dbf0-cf4b-4bc5-bc89-c9fa1d10dd40" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BaekJoon/src/bj01697/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BaekJoon/src/bj01697/input.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BaekJoon/src/bj05014/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/BaekJoon/src/bj05014/input.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="algorithm-study.iws" />
@@ -31,11 +31,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BaekJoon/src/bj01697/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="38">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BaekJoon/src/bj05014/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,8 +58,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BaekJoon/src/bj11724_dfs/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="76" column="5" selection-start-line="45" selection-start-column="4" selection-end-line="76" selection-end-column="5" />
+            <state relative-caret-position="577">
+              <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,8 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SamsungSoftwareAbilityTest/src/util/Utils.java" />
-        <option value="$PROJECT_DIR$/SamsungSoftwareAbilityTest/src/chapter1/QuickSort.java" />
         <option value="$PROJECT_DIR$/SamsungSoftwareAbilityTest/input_data/BinarySearchInputData.txt" />
         <option value="$PROJECT_DIR$/SamsungSoftwareAbilityTest/input_data/TreeInputData.txt" />
         <option value="$PROJECT_DIR$/SamsungSoftwareAbilityTest/input_data/LinkedListInputData.txt" />
@@ -132,6 +142,8 @@
         <option value="$PROJECT_DIR$/BaekJoon/src/bj11724_dfs/Main.java" />
         <option value="$PROJECT_DIR$/BaekJoon/src/bj01697/input.txt" />
         <option value="$PROJECT_DIR$/BaekJoon/src/bj01697/Main.java" />
+        <option value="$PROJECT_DIR$/BaekJoon/src/bj05014/input.txt" />
+        <option value="$PROJECT_DIR$/BaekJoon/src/bj05014/Main.java" />
       </list>
     </option>
   </component>
@@ -255,7 +267,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="bj01697" />
+              <option name="myItemId" value="bj05014" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -289,95 +301,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_65/src.zip!/java/util/Collection.java" />
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="algorithm.*" />
+          <option name="PATTERN" value="bj05014.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="algorithm.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="NHN-2017-winter-intern" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="bfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="bfs.BreadthFirstSearch" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Graph" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="BreadthFirstSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="bj2606.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="bj2606.BreadthFirstSearch" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="BaekJoon" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="bj11724_dfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="bj11724_dfs.Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="BaekJoon" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="bj01697.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="bj01697.Main" />
+      <option name="MAIN_CLASS_NAME" value="bj05014.Main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -679,19 +611,12 @@
       <envs />
       <method />
     </configuration>
-    <list size="5">
+    <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.BreadthFirstSearch" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BreadthFirstSearch" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Main (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BreadthFirstSearch" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -718,13 +643,6 @@
       <workItem from="1475407172057" duration="18775000" />
       <workItem from="1475462513090" duration="54000" />
       <workItem from="1475468694299" duration="65000" />
-    </task>
-    <task id="LOCAL-00007" summary="+벡터, 스택 구현">
-      <created>1475509266766</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1475509266766</updated>
     </task>
     <task id="LOCAL-00008" summary="+정렬 알고리즘 구현 중">
       <created>1475689571216</created>
@@ -1062,7 +980,14 @@
       <option name="project" value="LOCAL" />
       <updated>1482297370151</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="+ 2016.12.21 백준01697번; 숨바꼭질; BFS; 성공; 다른 사람 답보고 품;">
+      <created>1482300010541</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1482300010541</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1144,7 +1069,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="+삼성 소프트웨어 역량테스트, p52, 깊이우선탐색, 못 품! (행렬로?연결리스트로? 어떤걸로?)" />
     <MESSAGE value="+삼성 소프트웨어 역량테스트, p57, 탐욕기법, 거스름돈알고리즘 문제 풀이" />
     <MESSAGE value="+삼성 소프트웨어 역량테스트, p57, 탐욕기법, 거스름돈알고리즘 input 파일" />
     <MESSAGE value="+삼성 소프트웨어 역량테스트, p57, 탐욕기법, 거스름돈알고리즘 output 파일" />
@@ -1169,7 +1093,8 @@
     <MESSAGE value="+ 2016.12.21 백준10026번; 적록색약; DFS로 구현해 봄; 실패;" />
     <MESSAGE value="+ 2016.12.21 백준11724번; 연결 요소의 개수; DFS로 구현해 봄; 성공;" />
     <MESSAGE value="+ 2016.12.21 백준11724번; Null체크하는 부분을 스트림API로 수정해 봄;" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ 2016.12.21 백준11724번; Null체크하는 부분을 스트림API로 수정해 봄;" />
+    <MESSAGE value="+ 2016.12.21 백준01697번; 숨바꼭질; BFS; 성공; 다른 사람 답보고 품;" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ 2016.12.21 백준01697번; 숨바꼭질; BFS; 성공; 다른 사람 답보고 품;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1193,7 +1118,7 @@
           <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="64" />
+      <option name="time" value="65" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1202,20 +1127,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SamsungSoftwareAbilityTest/src/session1/chapter1/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="64" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SamsungSoftwareAbilityTest/src/session1/chapter1/DivideAndConquer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SamsungSoftwareAbilityTest/src/session1/chapter2/XOREncryption.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1536,10 +1447,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BaekJoon/src/bj05014/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BaekJoon/src/bj11724_dfs/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="76" column="5" selection-start-line="45" selection-start-column="4" selection-end-line="76" selection-end-column="5" />
+        <state relative-caret-position="577">
+          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1548,8 +1467,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BaekJoon/src/bj01697/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="38">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaekJoon/src/bj05014/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
