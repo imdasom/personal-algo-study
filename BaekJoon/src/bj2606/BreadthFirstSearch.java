@@ -1,4 +1,4 @@
-package path.bj2606;
+package bj2606;
 
 import java.io.*;
 import java.util.LinkedList;

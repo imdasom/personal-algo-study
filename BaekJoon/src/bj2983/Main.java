@@ -1,4 +1,6 @@
-import dp.bj2983.bj2983;
+package bj2983;
+
+import bj2983.bj2983;
 import java.io.FileNotFoundException;
 
 /**

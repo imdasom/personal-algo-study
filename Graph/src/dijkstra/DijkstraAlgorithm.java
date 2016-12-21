@@ -1,4 +1,4 @@
-package path.bj1753;
+package dijkstra;
 
 import java.io.*;
 import java.util.PriorityQueue;

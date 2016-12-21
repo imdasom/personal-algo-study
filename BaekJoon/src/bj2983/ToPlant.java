@@ -1,4 +1,4 @@
-package dp.bj2983;
+package bj2983;
 
 /**
  * Created by dasom on 2016-10-03.

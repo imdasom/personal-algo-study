@@ -1,4 +1,4 @@
-package dp.bj2983;
+package bj2983;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
