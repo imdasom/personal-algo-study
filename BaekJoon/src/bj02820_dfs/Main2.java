@@ -4,9 +4,8 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.NoSuchElementException;
-import java.util.StringTokenizer;
+import java.util.*;
+import java.util.stream.Stream;
 
 /**
  * Created by dasom on 2016-12-27.
@@ -16,6 +15,7 @@ public class Main2 {
     static ArrayList<Integer> empRelationship[];
     static int[] payments;
     static boolean[] visisted;
+    static boolean visitedFlagStandard = true;
 
     static BufferedReader br;
     static StringTokenizer st;
@@ -33,13 +33,14 @@ public class Main2 {
                     int increasedPay = Integer.parseInt(st.nextToken());
 
                     //System.out.println("상사 : "+superior+" 증가월급 : "+increasedPay);
-
-                    visisted = new boolean[N];
+                    //visisted[superior] = visitedFlagStandard;
+                    //payments[superior] += increasedPay;
+                    //Stream.of(visisted).forEach(v -> { v=true;});
                     DFS(superior, increasedPay);
 
                     // DFS로 들어가면 상사의 월급도 증가한다.
                     // 상사의 월급은 증가하면 안되므로 다시 감소시킨다.
-                    payments[superior] -= increasedPay;
+                    //payments[superior] -= increasedPay;
                     break;
 
                 case "u":
@@ -53,17 +54,22 @@ public class Main2 {
 
     private static void DFS(int curEmp, int increasedPay) {
         //System.out.println("DFS "+curEmp+" 로 진입");
-        if(visisted[curEmp]) return;
+        //if(visisted[curEmp]) return;
 
-        visisted[curEmp] = true;
-        payments[curEmp] += increasedPay;
+        //visisted[curEmp] = true;
+        //payments[curEmp] += increasedPay;
         //System.out.printf("%d의 월급 %d 증가하여 %d가 됨\n", curEmp, increasedPay, payments[curEmp]);
 
-        if(empRelationship[curEmp] == null) return;
+        //if(empRelationship[curEmp] == null) return;
         for (int i = 0; i < empRelationship[curEmp].size(); i++) {
             int nextEmp = empRelationship[curEmp].get(i);
             //System.out.println("nextEmp : "+nextEmp);
-            DFS(nextEmp, increasedPay);
+
+            if(visisted[nextEmp] != visitedFlagStandard) {
+                visisted[nextEmp] = visitedFlagStandard;
+                payments[nextEmp] += increasedPay;
+                if(empRelationship[nextEmp] != null) DFS(nextEmp, increasedPay);
+            }
         }
     }
 
@@ -79,6 +85,10 @@ public class Main2 {
 
         empRelationship = new ArrayList[N];
         payments = new int[N];
+        visisted = new boolean[N];
+
+        //bitSets = new BitSet[N];
+
 
         for (int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine());;
