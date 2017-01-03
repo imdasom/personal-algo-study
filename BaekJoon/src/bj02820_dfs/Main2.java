@@ -14,8 +14,7 @@ public class Main2 {
     static int N, M;
     static ArrayList<Integer> empRelationship[];
     static int[] payments;
-    static boolean[] visisted;
-    static boolean visitedFlagStandard = true;
+    static boolean[] visited;
 
     static BufferedReader br;
     static StringTokenizer st;
@@ -32,15 +31,8 @@ public class Main2 {
                     int superior = Integer.parseInt(st.nextToken()) - 1;
                     int increasedPay = Integer.parseInt(st.nextToken());
 
-                    //System.out.println("상사 : "+superior+" 증가월급 : "+increasedPay);
-                    //visisted[superior] = visitedFlagStandard;
-                    //payments[superior] += increasedPay;
-                    //Stream.of(visisted).forEach(v -> { v=true;});
+                    visited = new boolean[N];
                     DFS(superior, increasedPay);
-
-                    // DFS로 들어가면 상사의 월급도 증가한다.
-                    // 상사의 월급은 증가하면 안되므로 다시 감소시킨다.
-                    //payments[superior] -= increasedPay;
                     break;
 
                 case "u":
@@ -53,20 +45,11 @@ public class Main2 {
     }
 
     private static void DFS(int curEmp, int increasedPay) {
-        //System.out.println("DFS "+curEmp+" 로 진입");
-        //if(visisted[curEmp]) return;
-
-        //visisted[curEmp] = true;
-        //payments[curEmp] += increasedPay;
-        //System.out.printf("%d의 월급 %d 증가하여 %d가 됨\n", curEmp, increasedPay, payments[curEmp]);
-
-        //if(empRelationship[curEmp] == null) return;
         for (int i = 0; i < empRelationship[curEmp].size(); i++) {
             int nextEmp = empRelationship[curEmp].get(i);
-            //System.out.println("nextEmp : "+nextEmp);
 
-            if(visisted[nextEmp] != visitedFlagStandard) {
-                visisted[nextEmp] = visitedFlagStandard;
+            if(!visited[nextEmp]) {
+                visited[nextEmp] = true;
                 payments[nextEmp] += increasedPay;
                 if(empRelationship[nextEmp] != null) DFS(nextEmp, increasedPay);
             }
@@ -85,10 +68,7 @@ public class Main2 {
 
         empRelationship = new ArrayList[N];
         payments = new int[N];
-        visisted = new boolean[N];
-
-        //bitSets = new BitSet[N];
-
+        visited = new boolean[N];
 
         for (int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine());;
